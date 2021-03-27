@@ -1,0 +1,78 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Adu, hi? wat'sup",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Oh Hi, I'm here. I'm Max's Chatbot. I'm quite stupid. My boss just lets me do the simple things. So dont ask me tough questions!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Adu ok","Happy to help!", "Any time!", "My pleasure","Just do my job, otherwise, my boss will kill me!"]
+    },
+    {
+      "tag": "introduce",
+      "patterns": [
+        "Tell me about manh",
+        "Bio manh",
+        "Introduce manh",
+        "more about manh",
+        "your boss?",
+        "who is manh"
+      ],
+      "responses": [
+        "Well, he is a great guy, he loves machine learning!",
+        "21 years old with many unfinished dreams, but he always trys his best",
+        "He loves soccer!",
+        "Gud boy 100%, handsome and attractive :)"
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "any skills?",
+        "Does he have any machinelearning skills",
+        "skills",
+        "technical skills"
+      ],
+      "responses": [
+        "adu some of skills: pytorch, lol",
+        "toang, he doesn't wanna say"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "adu no :)",
+        "Mu will get the c2 cup ... "
+      ]
+    }
+  ]
+}
